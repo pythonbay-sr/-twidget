@@ -1,0 +1,113 @@
+.classicContainer {
+    display: flex;
+}
+
+.classicContainer .contentBar {
+    margin-left: 60px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.classicContainer .pfp {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+
+.classicContainer .pflogo {
+    width: 60px;
+    position: absolute;
+    left: 35px;
+    top: 50px
+}
+
+#fbpl, #twpl {
+    width: 40px;
+    left: 43px;
+}
+
+.classicContainer .nameBar {
+    padding: 7px;
+    padding-left: 20px;
+    color: white;
+    width: 75%;
+    border-radius: 0px 9px 0px 0px;
+}
+
+.classicContainer .nameBar span {
+    margin-left: 15px;
+}
+
+.classicContainer .messageBar {
+    padding: 10px;
+    width: auto;
+    background-color: white;
+    border-radius: 0px 10px 10px 10px;
+    padding-left: 35px;
+}
+
+/* yt platform */
+
+.youtubePlatform .nameBar {
+    background-color: #de3a36;
+}
+
+.youtubePlatform .pfp {
+    border: 2px solid red;
+}
+
+.youtubePlatform #ytpl {
+    display: block;
+}
+
+.youtubePlatform #twpl {
+    display: none;
+}
+
+.youtubePlatform #fbpl {
+    display: none;
+}
+/* fb platform */
+
+.facebookPlatform .nameBar {
+    background-color: #2980b9;
+}
+
+.facebookPlatform .pfp {
+    border: 2px solid #2980b9;
+}
+
+.facebookPlatform #ytpl {
+    display: none;
+}
+
+.facebookPlatform #twpl {
+    display: none;
+}
+
+.facebookPlatform #fbpl {
+    display: block;
+}
+
+/* twich platform */
+
+.twitchPlatform .nameBar {
+    background-color: #6441a5;
+}
+
+.twitchPlatform .pfp {
+    border: 2px solid #6441a5;
+}
+
+.twitchPlatform #ytpl {
+    display: none;
+}
+
+.twitchPlatform #twpl {
+    display: block;
+}
+
+.twitchPlatform #fbpl {
+    display: none;
+}

@@ -1,0 +1,89 @@
+.simpleContainer {
+    display: flex;
+    background-color: white;
+}
+
+.simpleContainer .pfpBlock {
+    position: relative;
+}
+
+.simpleContainer .pfpBlock .pfp {
+    height: 50px;
+    margin: 10px;
+}
+
+.simpleContainer .pfpBlock .pflogo {
+    position: absolute;
+    height: 30px;
+    left: 35px;
+    top: 40px;
+}
+
+#fbpl {
+    padding-left: 5px;
+}
+
+.simpleContainer .contentBar .name {
+    margin: 0;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+.simpleContainer .contentBar .message {
+    margin: 5px 10px 10px 12px;
+}
+
+/* yt platform */
+
+.youtubePlatform {
+    border-left: 7px solid red;
+}
+
+.youtubePlatform #ytpl {
+    display: block;
+}
+
+.youtubePlatform #twpl {
+    display: none;
+}
+
+.youtubePlatform #fbpl {
+    display: none;
+}
+
+/* fb platform */
+
+.facebookPlatform {
+    border-left: 7px solid #2980b9;
+}
+
+.facebookPlatform #ytpl {
+    display: none;
+}
+
+.facebookPlatform #twpl {
+    display: none;
+}
+
+.facebookPlatform #fbpl {
+    display: block;
+}
+
+/* twitch platform */
+
+.twitchPlatform {
+    border-left: 7px solid #6441a5;
+}
+
+.twitchPlatform #ytpl {
+    display: none;
+}
+
+.twitchPlatform #twpl {
+    display: block;
+}
+
+.twitchPlatform #fbpl {
+    display: none;
+}
